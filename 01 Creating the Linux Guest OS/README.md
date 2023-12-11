@@ -49,8 +49,8 @@ Size: 80 GB
 
 ###### Advanced
 
-Shared Clipboard: Enabled  
-Drag'n'Drop: Enabled  
+Shared Clipboard: Bidirectional  
+Drag'n'Drop: Bidirectional  
 
 ###### Description
 
