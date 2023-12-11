@@ -1,8 +1,6 @@
 # Creating the Linux Guest OS
 
-## Installing Oracle VirtualBox
-
-<mark>placeholder
+It is necessary to produce the students' Linux Guest OS such that it is as performant as possible whilst accounting for compatibility with most machines.  The settings here are a starting point, which the student will be able to change after importing the image into VirtualBox.
 
 ## Downloading the Linux distro
 
