@@ -117,7 +117,7 @@ labviewtraining
 
 ## Post-Install First Boot Settings
 
-After logging in as the user cti with the password labview training, additional settings must be applied to Lubuntu.
+After logging in as the user ```cti``` with the password ```labviewtraining```, additional settings must be applied to Lubuntu.
 
 ### Applying Updates
 
@@ -129,7 +129,7 @@ After logging in as the user cti with the password labview training, additional 
 
 ### Install VirtualBox Guest Additions
 
-<mark> This subtopic is workin progress as Lubuntu lacks the essential headers to apply guest addtions.  Installing headers could increase the guest OS size.  
+<mark> This subtopic is a work in progress as Lubuntu lacks the essential headers to apply guest addtions.  Installing headers could increase the guest OS size.  
 
 1. Select Devices->Insert Guest Additions CD image from the main menu of the VirtualBox window surrounding the guest.
 2. Launch QTerminal.
@@ -137,3 +137,4 @@ After logging in as the user cti with the password labview training, additional 
 4. Run command ```sudo ./VBoxLinuxAdditions.run```
 5. Run command ```exit```
 6. Eject the Guest Additions disk using the CD glyph in the bottom-right of the Guest OS window.
+7. Reboot the Lubuntu virtual machine.
