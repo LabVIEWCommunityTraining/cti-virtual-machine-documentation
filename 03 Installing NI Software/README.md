@@ -1,6 +1,6 @@
 # Installing NI Software
 
-NI Software installers will be downloaded to the Shared Folder on the Host OS [%public%\downloads] and executed within the Guest OS from [/sf_host_downloads].
+NI Software installers will be downloaded to the Shared Folder on the Host OS [%public%\downloads] and executed within the Guest OS from [/sf_host_downloads].  Consider taking a VirtualBox snapshot before following the next steps so that you can revert back to a recent state in case there are issues.
 
 ## Download NI LabVIEW Community Edition
 
@@ -40,4 +40,3 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS [%
 4. Run command ```sudo apt install ni-visa```.
 5. Enter ```Y``` when prompted to install.
 6. Reboot the virtual machine.
-
