@@ -149,7 +149,7 @@ After logging in as the user ```cti``` with the password ```labviewtraining```, 
 Earlier in the instructions, a Shared Folder was added in the Lubuntu Guest OS settins in VirtualBox.  A shared folder is used to share data between the Host and Guest OS.  We are trying to avoid downloading files straight in the Guest OS because it grows the size of the Virtual Disk (*.vdi).  By default, although the settings earlier in the document create the permanent shared folder in Lubuntu, Linux permissions prevent a user from reading and writing to the mounted folder.
 
 1. Launch QTerminal.
-2. Run command sudo adduser $USER vboxsf
+2. Run command ```sudo adduser $USER vboxsf```
 3. Reboot the virtual machine.
 4. Upon logging in, open the File Explorer and notice the mounted folder ```sf_host_downloads```.
 5. Inspect that you see the contents of this folder, as all installers will be run from this folder.
