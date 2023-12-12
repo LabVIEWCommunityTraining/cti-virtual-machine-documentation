@@ -76,7 +76,12 @@ Video Memory: 64 MB
 
 #### Shared Folders
 
-<mark> placeholder
+1. Under Machine Folders, add a share.
+    - Folder Path: <C:\Users\Public\Downloads>
+    - Folder Name: host_downloads
+    - Automount: Enabled
+    - Make Permanent: Enabled
+2. Add the user ```cti``` to the Linux group ```vboxsf``` using the commands later in this document.
 
 ## First Boot of the Linux Virtual Machine
 
@@ -138,3 +143,13 @@ After logging in as the user ```cti``` with the password ```labviewtraining```, 
 5. Run command ```exit```
 6. Eject the Guest Additions disk using the CD glyph in the bottom-right of the Guest OS window.
 7. Reboot the Lubuntu virtual machine.
+
+### Enable the shared folder between the Host and Guest OS
+
+Earlier in the instructions, a Shared Folder was added in the Lubuntu Guest OS settins in VirtualBox.  A shared folder is used to share data between the Host and Guest OS.  We are trying to avoid downloading files straight in the Guest OS because it grows the size of the Virtual Disk (*.vdi).  By default, although the settings earlier in the document create the permanent shared folder in Lubuntu, Linux permissions prevent a user from reading and writing to the mounted folder.
+
+1. Launch QTerminal.
+2. Run command sudo adduser $USER vboxsf
+3. Reboot the virtual machine.
+4. Upon logging in, open the File Explorer and notice the mounted folder ```sf_host_downloads```.
+5. Inspect that you see the contents of this folder, as all installers will be run from this folder.
