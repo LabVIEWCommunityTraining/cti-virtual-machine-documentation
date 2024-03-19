@@ -8,5 +8,5 @@ This is a list of verifications the creator of the image must assert before expo
 - [ ] Cleaned apt cache with ```sudo apt clean all```
 - [ ] Removed all downloads and files from the ```cti``` user folders.
 - [ ] Set display resolution to 1366 x 768, in windowed mode.
-- [ ] Place QTerminal shortcut on the desktop.
+- [ ] Place QTerminal shortcut on the desktop, and mark it as trusted.
 - [ ] Place LabVIEW Development Environment shortcut on the desktop, and mark it as trusted.
