@@ -134,11 +134,9 @@ After logging in as the user ```cti``` with the password ```labviewtraining```, 
 
 ### Install VirtualBox Guest Additions
 
-<mark> This subtopic is a work in progress as Lubuntu lacks the essential headers to apply guest addtions.  Installing headers could increase the guest OS size.  
-
 1. Select Devices->Insert Guest Additions CD image from the main menu of the VirtualBox window surrounding the guest.
 2. Launch QTerminal.
-3. Type command ```cd /mediacti/Vbox``` and press ```Tab```.  The path should autocomplete to the mount point that Linux has chosen.  Press ```Enter``` to run the command and change directory.
+3. Type command ```cd /media/cti/Vbox``` and press ```Tab```.  The path should autocomplete to the mount point that Linux has chosen.  Press ```Enter``` to run the command and change directory.
 4. Run command ```sudo ./VBoxLinuxAdditions.run```
 5. Run command ```exit```
 6. Eject the Guest Additions disk using the CD glyph in the bottom-right of the Guest OS window.
