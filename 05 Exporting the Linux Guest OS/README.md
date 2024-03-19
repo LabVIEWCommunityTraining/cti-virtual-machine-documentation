@@ -9,8 +9,8 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
 3. Navigate to File->Export Appliance...
 4. Under Format Settings apply the following:
     - Format: Open Virtualization Standard 2.0
-    - File: [preferred path]\LabVIEW-CTI-Student-Image-Lubuntu-YYYYMMDD.#.ova
-        - example: LabVIEW-CTI-Student-Image-Lubuntu-20231213.1.ova
+    - File: [preferred path]\LabVIEW-CTI-Student-Image-Lubuntu-YYYYMMDD-#.ova
+        - example: LabVIEW-CTI-Student-Image-Lubuntu-20231213-1.ova
             - (Kebabcase: All spaces must be converted to hyphens)
             - (ISO 8601 dates: Year Month Date as YYYYMMDD)
             - (Export count: a digit to represent the number of exports on this date.  The count resets to '1' when the date changes)
@@ -21,7 +21,7 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
     - Product-URL: <https://www.gcentral.org/g-community-resources/community-training-image>
     - Vendor: The LabVIEW Community Training Initiative
     - Vendor-URL: <https://www.gcentral.org/g-community-resources/community-training-image>
-    - Version: YYYYMMDD.# (same as filename, e.g. 20231213.1)
+    - Version: YYYYMMDD.# (same as filename, e.g. 20231213-1)
     - Description: [should be pre-filled]
     - License: Work-in-progress
 6. Click Finish
@@ -30,7 +30,7 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
 
 Using 7-Zip 64-bit, compress the exported *.ova file into a *.7z file.  Apply the following settings:
 
-- Archive file name: LabVIEW-CTI-Student Image-Lubuntu-YYYYMMDD.#.7z (same as *.ova)
+- Archive file name: LabVIEW-CTI-Student Image-Lubuntu-YYYYMMDD-#.7z (same as *.ova)
 - Archive format: 7z
 - Compression level: Ultra
 - Compression method: LZMA2
