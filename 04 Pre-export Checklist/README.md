@@ -15,12 +15,18 @@ This is a list of verifications the creator of the image must assert before expo
 
 ### Delete and remove all shared folder from the Host to the Guest OS
 
+1. Navigate to the main VirtualBox window and find the guest OS on the left-hand menu.
+2. Under the ```Details``` section, find ```Shared Folders```.
+3. Remove all shared folders.
+4. Reboot the guest OS.
+
 ### Unmount any folders or media, such as the NI installer ISO
 
 1. Run the File Manager application.
 2. In the bottom left of the directory tree, look for mounted media.
 3. Find the eject symbol [⏏️] and click it.
 4. Repeat for all media.
+5. Reboot the guest OS.
 
 ### Set desktop background to the CTI desktop background
 
