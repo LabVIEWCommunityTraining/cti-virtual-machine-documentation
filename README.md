@@ -4,18 +4,18 @@ Contains documentation and issue tracking for the CTI Virtual Machine image that
 
 ## Downloading the CTI Virtual Machine (VM)
 
-The VM hosted by GCentral.org and can be downloaded from [this link](https://downloads.gcentral.org/vm/20231021_OpenSUSE_CTIBase.ova) (~7.3GB download).
+The VM is hosted by GCentral.org and can be downloaded from [this link](https://downloads.gcentral.org/vm/20231021_OpenSUSE_CTIBase.ova) (~7.3GB download).
 
 ## Overview of the CTI Virtual Machine
 
 ### Operating System
 
-- OpenSuse Leap 15.5, 64-bit
-- XFCE Window Manager
+- Lubuntu 22.04.3 LTS (Jammy Jellyfish), 64-bit
+- LXQt Window Manager
 
 ### LabVIEW Version and NI Software
 
-- LabVIEW 2022 64-bit Community Edition (Requires **free activation** before use)
+- LabVIEW 2023 Q3 64-bit Community Edition (Requires **free activation** before use)
 - NI-Visa
 
 ### Other software

@@ -40,3 +40,12 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS [%
 4. Run command ```sudo apt install ni-visa```.
 5. Enter ```Y``` when prompted to install.
 6. Reboot the virtual machine.
+
+## Placing a LabVIEW shortcut on the desktop
+
+1. Click the Application Menu (Windows Start button equivalent).
+2. Hover over ```National Instruments```.
+3. Right-click on ```LabVIEW 2023 Q3 64-bit```.
+4. Select ```Add to Desktop```.
+5. Right-click on the desktop shortcut that was just created.
+6. Select ```Trust this executable```, which should remove an exclamation mark glyph.
