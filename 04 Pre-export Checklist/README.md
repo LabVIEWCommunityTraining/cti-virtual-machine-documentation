@@ -10,6 +10,7 @@ This is a list of verifications the creator of the image must assert before expo
 - [ ] Set display resolution to 1366 x 768, in windowed mode.
 - [ ] Place QTerminal shortcut on the desktop, and mark it as trusted.
 - [ ] Place LabVIEW Development Environment shortcut on the desktop, and mark it as trusted.
+- [ ] (Experimental) Compact the guest OS VDI file using VBoxManage.exe
 
 ## How-to
 
@@ -71,3 +72,24 @@ This is a list of verifications the creator of the image must assert before expo
 4. Select ```Add to Desktop```.
 5. Right-click on the desktop shortcut that was just created.
 6. Select ```Trust this executable```, which should remove an exclamation mark glyph.
+
+### (Experimental) Compact the guest OS
+
+#### In the guest OS
+
+1. In the guest OS, launch QTerminal.
+2. Install bleachbit using ```sudo apt install bleachbit```.
+3. From the guest OS launcher, navigate to ```System Tools``` and run ```Bleachbit (root)```.
+4. Type in the standard user password when promepted.
+5. From the left-hand side, select all options, regardless of warnings.
+6. Click ```Clean``` to run.
+7. When completed, shutdown the guest OS.
+
+#### In the host OS
+
+1. Ensure that the guest OS is shutdown and the VirtualBox window is closed.
+2. Launch Microsoft PowerShell.
+3. Navigate to ```C:\Program Files\Oracle\VirtualBox```.
+4. Run command ``` .\VBoxManage.exe modifymedium disk --compact "path\to\guestOS\*.vdi```.
+
+    - An example path could be ```"C:\Users\[username]\VirtualBox VMs\LabVIEW CTI - Student Image - Lubuntu 22.04.3\LabVIEW CTI - Student Image - Lubuntu 22.04.3.vdi"```
