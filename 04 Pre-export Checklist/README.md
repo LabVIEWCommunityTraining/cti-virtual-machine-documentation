@@ -10,6 +10,8 @@ This is a list of verifications the creator of the image must assert before expo
 - [ ] Set display resolution to 1366 x 768, in windowed mode.
 - [ ] Place QTerminal shortcut on the desktop, and mark it as trusted.
 - [ ] Place LabVIEW Development Environment shortcut on the desktop, and mark it as trusted.
+- [ ] Verify user ```cti``` is part of the ```dialout``` group.
+- [ ] Verify links to resources work
 - [ ] (Experimental) Compact the guest OS VDI file using VBoxManage.exe
 
 ## How-to
@@ -72,6 +74,17 @@ This is a list of verifications the creator of the image must assert before expo
 4. Select ```Add to Desktop```.
 5. Right-click on the desktop shortcut that was just created.
 6. Select ```Trust this executable```, which should remove an exclamation mark glyph.
+
+### Verify cti user is part of the dialout group
+
+1. Launch QTerminal.
+2. Run command ```groups cti``` to verify that the user ```cti``` is part of the ```dialout``` group.
+
+### Verify links to resources work
+
+1. Click on the application launcher.
+2. Find the ```other``` category.
+3. Click all the shortcuts and make sure they work in Firefox.
 
 ### (Experimental) Compact the guest OS
 
