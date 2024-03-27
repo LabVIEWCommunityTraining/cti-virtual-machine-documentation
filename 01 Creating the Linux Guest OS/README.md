@@ -151,3 +151,13 @@ Earlier in the instructions, a Shared Folder was added in the Lubuntu Guest OS s
 3. Reboot the virtual machine.
 4. Upon logging in, open the File Explorer and notice the mounted folder ```sf_host_downloads```.
 5. Inspect that you see the contents of this folder, as all installers will be run from this folder.
+
+## Setting User Permissions
+
+The training material created by the CTI communicates over serial to a Raspberry Pi Pico with custom firmware for emulating NI-VISA instruments.  By default in Linux, users do not have permission to communicate with the serial ports.
+
+1. Launch QTerminal.
+2. Run command ```groups cti``` to verify that the user ```cti``` is not part of the ```dialout``` group.
+3. Run command ```sudo gpasswd --add cti dialout```.
+4. Run command ```groups cti``` to verify that the user ```cti``` is now part of the ```dialout``` group.
+5. Reboot the virtual machine for the changes to take effect.
