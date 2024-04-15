@@ -8,4 +8,4 @@ The top-level contains exports from the [vector](/visual_identity/source_vectors
 
 ## Source Vectors
 
-The Scalable Vector Graphics (svg) files have been developed using Inkscape, a free, open-source tool.  Inkscape is recommend for future modifications.  Updated graphics should be exported as a PNG using the 'Export' feature of Inkscape.
+The Scalable Vector Graphics (SVG) files have been developed using Inkscape, a free, open-source tool.  Inkscape is recommend for future modifications.  Updated graphics should be exported as a PNG using the 'Export' feature of Inkscape.
