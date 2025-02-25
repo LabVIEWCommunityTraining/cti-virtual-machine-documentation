@@ -67,5 +67,5 @@ Consider taking a VirtualBox snapshot before following the next steps so that yo
 
 1. Launch QTerminal on the Lubuntu Guest OS.
 2. Run command `sudo chmod +x /media/sf_host_downloads/cti_vipm_install.sh`.
-3. Run command `sudo /media/sf_host_downloads/cti_vipm_install.sh vipm-2023.3.1.2608-linux.zip`.
+3. Run command `sudo /media/sf_host_downloads/cti_vipm_install.sh /media/sf_host_downloads/vipm-2023.3.1.2608-linux.zip`.
 4. Reboot the virtual machine.
