@@ -10,16 +10,17 @@ The VM is hosted by GCentral.org and can be downloaded from [this link](https://
 
 ### Operating System
 
-- Lubuntu 22.04.3 LTS (Jammy Jellyfish), 64-bit
+- Lubuntu 24.04.2 LTS (Noble Numbat), 64-bit
 - LXQt Window Manager
 
 ### LabVIEW Version and NI Software
 
-- LabVIEW 2023 Q3 64-bit Community Edition (Requires **free activation** before use)
-- NI-Visa
+- LabVIEW 2024 Q3 64-bit Community Edition (Requires **free activation** before use)
+- NI-VISA
 
 ### Other software
 
+- JKI's VI Package Manager (VIPM)
 - LibreOffice
 - Firefox
 
@@ -27,7 +28,7 @@ The VM is hosted by GCentral.org and can be downloaded from [this link](https://
 
 ### Issue Tracking
 
-If you find an issue with the VM, create an Issue from the menus above so that it can be addressed by the active developers of the image.
+If you find an issue with the VM, create an Issue from the menus above in the **main** branch so that it can be addressed by the active developers of the image.
 
 ### Documentation
 
