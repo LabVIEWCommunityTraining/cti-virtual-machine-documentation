@@ -4,39 +4,41 @@ Additional utilities and settings must be applied to the Guest OS so that studen
 
 ## Creating Application Launcher shortcuts
 
-1. Using the File Manager, navigate to the hidden folder ```/homes/cti/.local/share```.
-2. If the subfolder ```applications``` does not exist, create it.
-3. Enter the subdirectory ```/homes/cti/.local/share/applications```.
+Hidden folders can be change to visible by pressing the shortcut key `Ctrl+H` in the File Manager.  
+
+1. Using the File Manager, navigate to the hidden folder `/homes/cti/.local/share`.
+2. If the subfolder `applications` does not exist, create it.
+3. Enter the subdirectory `/homes/cti/.local/share/applications`.
 
 ### Shortcut: CTI GitHub
 
-1. In the main menu, navigate to ```Tools``` -> ```Create Launcher```.
+1. In the main menu, navigate to `Tools` -> `Create Launcher`.
 2. Use the following inputs:
     - Name: Visit LabVIEW Community Training on GitHub
     - Description: Launches web browser and navigates to the CTI GitHub
-    - Command: ```firefox https://github.com/LabVIEWCommunityTraining```
+    - Command: `firefox https://github.com/LabVIEWCommunityTraining`
     - Icon: firefox
     - Terminal: No
     - Type: Application
 
 ### Shortcut: GCentral.org
 
-1. In the main menu, navigate to ```Tools``` -> ```Create Launcher```.
+1. In the main menu, navigate to `Tools` -> `Create Launcher`.
 2. Use the following inputs:
     - Name: Visit GCentral.org
     - Description: Launches web browser and navigates to GCentral
-    - Command: ```firefox https://www.gcentral.org```
+    - Command: `firefox https://www.gcentral.org`
     - Icon: firefox
     - Terminal: No
     - Type: Application
 
 ### Shortcut: NI forums
 
-1. In the main menu, navigate to ```Tools``` -> ```Create Launcher```.
+1. In the main menu, navigate to `Tools` -> `Create Launcher`.
 2. Use the following inputs:
     - Name: Post a question on the NI Forums
     - Description: Launches web browser and navigates to forums.ni.com
-    - Command: ```firefox https://forums.ni.com```
+    - Command: `firefox https://forums.ni.com`
     - Icon: firefox
     - Terminal: No
     - Type: Application
