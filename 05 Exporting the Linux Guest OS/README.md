@@ -16,11 +16,11 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
             - (Export count: a digit to represent the number of exports on this date.  The count resets to '1' when the date changes)
     - MAC Address Policy: Strip all network adapter MAC addressess
 5. Under Appliance Settings apply the following:
-    - Name: LabVIEW-CTI - Student Image - Lubuntu 22.04.3
+    - Name: LabVIEW CTI - Student Image - Lubuntu 24.04.2
     - Product: CTI - Student Image
-    - Product-URL: <https://www.gcentral.org/g-community-resources/community-training-image>
+    - Product-URL: <https://www.gcentral.org/cti/>
     - Vendor: The LabVIEW Community Training Initiative
-    - Vendor-URL: <https://www.gcentral.org/g-community-resources/community-training-image>
+    - Vendor-URL: <https://www.gcentral.org/cti/>
     - Version: YYYYMMDD.# (same as filename, e.g. 20231213-1)
     - Description: [should be pre-filled]
     - License: Work-in-progress
@@ -28,7 +28,7 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
 
 ## Compressing the OVA file
 
-Using 7-Zip 64-bit, compress the exported *.ova file into a *.zip file.  Apply the following settings:
+Using 7-Zip 64-bit, compress the exported `*.ova` file into a `*.zip` file.  Apply the following settings:
 
 - Archive file name: LabVIEW-CTI-Student Image-Lubuntu-YYYYMMDD-#.zip (same as *.ova)
 - Archive format: zip
