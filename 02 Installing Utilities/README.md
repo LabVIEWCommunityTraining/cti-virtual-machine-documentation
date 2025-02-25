@@ -45,11 +45,11 @@ Hidden folders can be change to visible by pressing the shortcut key `Ctrl+H` in
 
 ### Shortcut: VIPM.io
 
-1. In the main menu, navigate to ```Tools``` -> ```Create Launcher```.
+1. In the main menu, navigate to `Tools` -> `Create Launcher`.
 2. Use the following inputs:
     - Name: Browse add-ons at VIPM.io
     - Description: Launches web browser and navigates to vipm.io
-    - Command: ```firefox https://www.vipm.io```
+    - Command: `firefox https://www.vipm.io`
     - Icon: firefox
     - Terminal: No
     - Type: Application
