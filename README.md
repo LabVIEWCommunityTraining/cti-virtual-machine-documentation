@@ -4,7 +4,7 @@ Contains documentation and issue tracking for the CTI Virtual Machine image that
 
 ## Downloading the CTI Virtual Machine (VM)
 
-The VM is hosted by GCentral.org and can be downloaded from [this link](https://downloads.gcentral.org/vm/20231021_OpenSUSE_CTIBase.ova) (~7.3GB download).
+The VM is hosted by GCentral.org and can be downloaded from [this link](https://www.gcentral.org/cti/) (~4.7GB download).
 
 ## Overview of the CTI Virtual Machine
 
@@ -16,13 +16,14 @@ The VM is hosted by GCentral.org and can be downloaded from [this link](https://
 ### LabVIEW Version and NI Software
 
 - LabVIEW 2024 Q3 64-bit Community Edition (Requires **free activation** before use)
-- NI-VISA
+- NI-VISA 2024 Q4 (stream)
 
 ### Other software
 
-- JKI's VI Package Manager (VIPM)
+- JKI's VI Package Manager (VIPM) (Release Candidate 2023.3.1.2608)
 - LibreOffice
 - Firefox
+- VLC
 
 ## How to use this repo
 
