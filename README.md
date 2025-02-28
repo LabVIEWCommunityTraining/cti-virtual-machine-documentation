@@ -1,6 +1,6 @@
 # CTI Virtual Machine Documentation
 
-Contains documentation and issue tracking for the CTI Virtual Machine image that is exported as an *.ova.  The image itself is not hosted in this repository.
+Contains documentation and issue tracking for the CTI Virtual Machine image that is exported as an `*.ova`.  The image itself is not hosted in this repository.
 
 ## Downloading the CTI Virtual Machine (VM)
 
