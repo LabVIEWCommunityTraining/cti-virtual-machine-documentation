@@ -1,16 +1,16 @@
 # Installing NI Software
 
-NI Software installers will be downloaded to the Shared Folder on the Host OS [%public%\downloads] and executed within the Guest OS from [/sf_host_downloads].  Consider taking a VirtualBox snapshot before following the next steps so that you can revert back to a recent state in case there are issues.
+NI Software installers will be downloaded to the Shared Folder on the Host OS `%public%\downloads` and executed within the Guest OS from `/sf_host_downloads`.  Consider taking a VirtualBox snapshot before following the next steps so that you can revert back to a recent state in case there are issues.
 
 ## Download NI LabVIEW Community Edition
 
 1. Ensure you are on a browser on the Host OS (Windows) and not the Guest OS (Lubuntu).
 2. Navigate to <www.ni.com/downloads>.
 3. Search `labview community` and click the best result.
-4. Select `Linux` and `LabVIEW 2024 Q3`.
+4. Select `Linux` and `LabVIEW 2026 Q3`.
 5. Click `Download` and download the file to the shared folder on the Host OS.
 6. Navigate to the shared folder when the download completes.
-7. Unzip the contents of the NI download to a local folder, such as `ni-labview-2024-community-24.3.2-linux`.
+7. Unzip the contents of the NI download to a local folder, such as `ni-labview-2026-community-26.3.1-linux`.
 
 ## Installing LabVIEW Community Edition
 
