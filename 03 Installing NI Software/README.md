@@ -16,11 +16,19 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS `%
 
 1. Read the [Knowledgebase article](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YGwsCAG&l=en-GB) by NI as background information.
 2. Launch QTerminal on the Lubuntu Guest OS.
-3. Run command `sudo apt install /media/sf_host_downloads/ni-labview-2024-community-24.3.2-linux/ni-labview-2024-community_24.3.2.49152-0+f0-ubuntu2204_all.deb`.
+3. Run command `sudo apt install /media/sf_host_downloads/ni-labview-2026-community-26.3.1_linux/ni-labview-2026-community_26.3.1.49165-0+f13-ubuntu2404_all.deb`.
 4. Run command `sudo apt update`.
-5. Run command `sudo apt install ni-labview-2024-community`.
+5. Run command `sudo apt install ni-labview-2026-community`.  If you receive an error regarding missing dotnet dependencies, see the section below.
 6. Enter `Y` when prompted to install.
 7. Reboot the virtual machine.
+
+### Install the DotNet 8.0 runtime
+
+1. Read the [Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8&pivots=os-linux-ubuntu-2604) by Microsoft as background information.
+2. Launch QTerminal on the Lubuntu Guest OS. 
+3. Run command `sudo add-apt-repository ppa:dotnet/backports`.  
+4. Run command `sudo apt-get install -y dotnet-runtime-8.0`.
+5. Resume the LabVIEW installation above.
 
 ## Download NI-VISA
 
