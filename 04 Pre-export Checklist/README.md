@@ -5,7 +5,7 @@ This is a list of verifications the creator of the image must assert before expo
 - [ ] Unmount any folders or media, such as the NI installer ISO.
 - [ ] Set desktop background to the CTI desktop background.
 - [ ] Cleaned apt cache with `sudo apt` commands.
-- [ ] Remove all downloads and files from the ```cti``` user folders.
+- [ ] Remove all downloads and files from the `cti` user folders.
 - [ ] Set display resolution to 1366 x 768, in windowed mode.
 - [ ] Place QTerminal shortcut on the desktop, and mark it as trusted.
 - [ ] Place LabVIEW Development Environment shortcut on the desktop, and mark it as trusted.
@@ -64,7 +64,7 @@ This is a list of verifications the creator of the image must assert before expo
 
 1. Click the Application Menu (Windows Start button equivalent).
 2. Hover over `National Instruments`.
-3. Right-click on `LabVIEW 2024 64-bit`.
+3. Right-click on `LabVIEW 2026 64-bit`.
 4. Select `Add to Desktop`.
 5. Right-click on the desktop shortcut that was just created.
 6. Select `Trust this executable`, which should remove an exclamation mark glyph.
@@ -107,6 +107,6 @@ This is a list of verifications the creator of the image must assert before expo
 1. Ensure that the guest OS is shutdown and the VirtualBox window is closed.
 2. Launch Microsoft PowerShell.
 3. Navigate to `C:\Program Files\Oracle\VirtualBox`.
-4. Run command ` .\VBoxManage.exe modifymedium disk --compact "path\to\guestOS\*.vdi`.
+4. Run command `.\VBoxManage.exe modifymedium disk --compact "path\to\guestOS\*.vdi`.
 
-    - An example path could be `"C:\Users\[username]\VirtualBox VMs\LabVIEW CTI - Student Image - Lubuntu 24.04.2\LabVIEW CTI - Student Image - Lubuntu 24.04.2.vdi"`
+    - An example path could be `"C:\Users\[user]\VirtualBox VMs\CTI\LabVIEW-CTI-Student Image-Lubuntu-26.04.1\LabVIEW-CTI-Student Image-Lubuntu-26.04.1.vdi"`
