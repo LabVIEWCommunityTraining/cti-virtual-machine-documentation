@@ -56,7 +56,7 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS `%
 
 1. Click the Application Menu (Windows Start button equivalent).
 2. Hover over `National Instruments`.
-3. Right-click on `LabVIEW 2024 64-bit`.
+3. Right-click on `LabVIEW 2026 64-bit`.
 4. Select `Add to Desktop`.
 5. Right-click on the desktop shortcut that was just created.
 6. Select `Trust this executable`, which should remove an exclamation mark glyph.
