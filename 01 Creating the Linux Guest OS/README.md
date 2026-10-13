@@ -4,13 +4,13 @@ It is necessary to produce the students' Linux Guest OS such that it is as perfo
 
 ## Downloading the Linux distro
 
-The CTI image is based on Canonical's Lubuntu 24.04.2 LTS, amd64 (Noble Numbat)
+The CTI image is based on Canonical's Lubuntu 26.04.1 LTS, amd64 (Resolute Raccoon)
 
 ### Links to Canonical's download
 
 [Landing Page](https://lubuntu.me/downloads/)  
-[Direct download link](https://cdimage.ubuntu.com/lubuntu/releases/noble/release/lubuntu-24.04.2-desktop-amd64.iso)  
-[Magnet link for torrent](https://cdimage.ubuntu.com/lubuntu/releases/noble/release/lubuntu-24.04.2-desktop-amd64.iso.torrent)  
+[Direct download link](https://cdimage.ubuntu.com/lubuntu/releases/26.04.1/release/lubuntu-26.04.1-desktop-amd64.iso)  
+[Magnet link for torrent](https://cdimage.ubuntu.com/lubuntu/releases/26.04.1/release/lubuntu-26.04.1-desktop-amd64.iso.torrent)  
 
 ## Adding the Linux ISO to the VirtualBox's Media Manager
 
@@ -19,7 +19,7 @@ By making VirtualBox aware of the Lubuntu `*.iso`, it will appear in dropdown me
 1. In the host OS, launch VirtualBox.  
 2. Press `Ctrl+D` to navigate to the Media Manager.  
 3. Click `Add` from the top menu of large icons.
-4. Navigate to the downloaded `*.iso` image, such as `[your location on disk]\lubuntu-22.04.3-desktop-amd64.iso`.  
+4. Navigate to the downloaded `*.iso` image, such as `[your location on disk]\lubuntu-26.04.1-desktop-amd64.iso`.  
 5. Click `Open`.  
 
 ## Creating the Linux Virtual Machine
@@ -32,11 +32,12 @@ The base settings must be applied with the VirtualBox wizard.  Further settings 
 
 ##### Name and Operating System
 
-Name: LabVIEW CTI - Student Image - Lubuntu 24.04.2  
+Name: LabVIEW-CTI-Student-Image-Lubuntu-26.04.1  
 Folder:  [any]  
-ISO Image: [your location on disk]\lubuntu-24.04.2-desktop-amd64.iso  
-Type: Linux  
-Version: Ubuntu (64-bit)  
+ISO Image: [your location on disk]\lubuntu-26.04.1-desktop-amd64.iso  
+OS: Linux  
+OS Distribution: Ubuntu  
+OS Version: Lubuntu (64-bit)  
 
 ##### Hardware
 
@@ -56,7 +57,7 @@ Size: 80 GB
 ###### Advanced
 
 Shared Clipboard: Bidirectional  
-Drag'n'Drop: Bidirectional  
+Drag and Drop: Bidirectional  
 
 ###### Description
 
@@ -65,8 +66,8 @@ Student Image - LabVIEW Community Training Initiative (CTI)
 
 Learn more about the LabVIEW CTI at <https://www.gcentral.org/cti/>  
 
-LabVIEW 2024 Q3 Community Edition, 64-bit  
-Base Distro: Lubuntu 24.04.2
+LabVIEW 2026 Q3 Community Edition, 64-bit  
+Base Distro: Lubuntu 26.04.1
 
 #### System
 
@@ -86,7 +87,6 @@ Video Memory: 64 MB
     - Folder Path: <C:\Users\Public\Downloads>
     - Folder Name: host_downloads
     - Automount: Enabled
-    - Make Permanent: Enabled
 2. Add the user `cti` to the Linux group `vboxsf` using the commands later in this document.
 
 ## First Boot of the Linux Virtual Machine
@@ -97,7 +97,7 @@ Select "Try or Install Lubuntu"
 
 ### Linux Try or Install Splash Screen
 
-In Lubuntu 24.04.2 or greater, the user is first shown a simplified splash screen.  
+In Lubuntu 26.04.1 or greater, the user is first shown a simplified splash screen.  
 
 1. `Select Your Language` as `English (United Kindgdom)`.  
 2. Click `Install Lubuntu`.  
@@ -122,7 +122,7 @@ CTI student
 cti
     - What is the name of this computer?  
 cti-virtualbox  
-    - Choose a password to keep your account safe.
+    - Choose a password to keep your account safe.  
 labviewtraining  
 13. Click Next.
 14. Review the Summary and click Install.  
@@ -147,7 +147,7 @@ After logging in as the user `cti` with the password `labviewtraining`, addition
 
 1. Select Devices->Insert Guest Additions CD image from the main menu of the VirtualBox window surrounding the guest.
 2. Launch QTerminal.
-3. Type command `cd /media/cti/Vbox` and press `Tab`.  The path should autocomplete to the mount point that Linux has chosen.  Press `Enter` to run the command and change directory.
+3. Type command `cd /run/media/cti/Vbox` and press `Tab`.  The path should autocomplete to the mount point that Linux has chosen.  Press `Enter` to run the command and change directory.
 4. Run command `sudo ./VBoxLinuxAdditions.run`
 5. Run command `exit`
 6. Eject the Guest Additions disk using the CD glyph in the bottom-right of the Guest OS window.

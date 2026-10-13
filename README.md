@@ -4,23 +4,23 @@ Contains documentation and issue tracking for the CTI Virtual Machine image that
 
 ## Downloading the CTI Virtual Machine (VM)
 
-The VM is hosted by GCentral.org and can be downloaded from [this link](https://www.gcentral.org/cti/) (~4.7GB download).
+The VM is hosted by GCentral.org and can be downloaded from [this link](https://www.gcentral.org/cti/) (~5.5 GB download).
 
 ## Overview of the CTI Virtual Machine
 
 ### Operating System
 
-- Lubuntu 24.04.2 LTS (Noble Numbat), 64-bit
+- Lubuntu 26.04.1 LTS (Resolute Raccoon), 64-bit
 - LXQt Window Manager
 
 ### LabVIEW Version and NI Software
 
-- LabVIEW 2024 Q3 64-bit Community Edition (Requires **free activation** before use)
-- NI-VISA 2024 Q4 (stream)
+- LabVIEW 2026 Q3 64-bit Community Edition (Requires **free activation** before use)
+- NI-VISA 2026 Q3 (non-stream)
 
 ### Other software
 
-- JKI's VI Package Manager (VIPM) (Release Candidate 2023.3.1.2608)
+- JKI's VI Package Manager (VIPM) (Release 2026.3.4056)
 - LibreOffice
 - Firefox
 - VLC
