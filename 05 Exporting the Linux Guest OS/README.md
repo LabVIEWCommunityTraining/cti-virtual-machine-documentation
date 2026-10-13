@@ -23,7 +23,17 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
     - Vendor-URL: <https://www.gcentral.org/cti/>
     - Version: YYYYMMDD.# (same as filename, e.g. 20231213-1)
     - Description: [should be pre-filled]
-    - License: Work-in-progress
+    - License:
+
+        ```text
+        MIT License  
+        2026 Community Training Initiative
+        NI Software subject to the rights reserved by:
+        https://www.ni.com/en/about-ni/legal/software-license-agreement.html
+        Lubuntu is subject to the rights reserved by:
+        https://canonical.com/legal
+        ```
+
 6. Click Finish
 
 ## Compressing the OVA file
