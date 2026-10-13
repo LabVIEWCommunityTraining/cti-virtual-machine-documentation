@@ -35,15 +35,18 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS `%
 1. Ensure you are on a browser on the Host OS (Windows) and not the Guest OS (Lubuntu).
 2. Navigate to <www.ni.com/downloads>.
 3. Search `ni visa` and click the best result.
-4. Select `Linux` and `2024 Q4`.
+4. Select `Linux` and `2026 Q3`.
 5. Click `Download` and download the file to the shared folder on the Host OS.
 6. Navigate to the shared folder when the download completes.
-7. Unzip the contents of the NI download to a local folder, such as `NILinux2024Q4DeviceDrivers`.
+7. Unzip the contents of the NI download to a local folder, such as `NILinux2026Q3DeviceDrivers`.
 
 ## Installing NI-VISA
 
+>Note: Driver change in this version of the VM.  
+>Previous VMs used the package `ni-ubuntu2404-drivers-stream.deb`, however this was switched to `static` drivers due to issue #21.  
+
 1. Launch QTerminal on the Lubuntu Guest OS.
-2. Run command `sudo apt install /media/sf_host_downloads/NILinux2024Q4DeviceDrivers/ni-ubuntu2404-drivers-stream.deb`.
+2. Run command `sudo apt install /media/sf_host_downloads/NILinux2026Q3DeviceDrivers/ni-ubuntu2404-drivers-2026Q3.deb`.
 3. Run command `sudo apt update`.
 4. Run command `sudo apt install ni-visa`.
 5. Enter `Y` when prompted to install.
