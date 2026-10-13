@@ -80,3 +80,29 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS `%
 1. Launch QTerminal on the Lubuntu Guest OS.
 2. Run command `sudo apt install /media/sf_host_downloads/vipm-26.3.4056-linux-installers/vipm_26.3.2-4056_amd64.deb`
 3. Reboot the virtual machine.
+
+## Correcting Font Alignment in for LabVIEW software in *ubuntu Flavors
+
+1. Launch QTerminal on the Lubuntu Guest OS.  
+2. Check if folder `~/.config/fontconfig` exists.  If it does not, run command `mkdir ~/.config/fontconfig`.  
+3. Run command `touch ~/.config/fontconfig/fonts.conf`.  
+4. Run command `nano ~/.config/fontconfig/fonts.conf`.  
+5. Paste the text:  
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+    <fontconfig>
+     <selectfont>
+        <rejectfont>
+             <glob>/usr/share/fonts/opentype/urw-base35/Nimbus*.otf</glob>
+        </rejectfont>
+     </selectfont>
+    </fontconfig>
+    ```
+
+6. Click `Yes` if prompted during the paste action.  
+7. Ensure the text formatting matches the text in issue #19.  
+8. Press `Ctrl+X` to exit nano and be prompted to save the file.  
+9. Type `Y` to save the contents with the defaults.  
+10. Reboot the virtual machine.
