@@ -4,7 +4,7 @@ Contains documentation and issue tracking for the CTI Virtual Machine image that
 
 ## Downloading the CTI Virtual Machine (VM)
 
-The VM is hosted by GCentral.org and can be downloaded from [this link](https://www.gcentral.org/cti/) (~4.7GB download).
+The VM is hosted by GCentral.org and can be downloaded from [this link](https://www.gcentral.org/cti/) (~5.5 GB download).
 
 ## Overview of the CTI Virtual Machine
 
@@ -16,7 +16,7 @@ The VM is hosted by GCentral.org and can be downloaded from [this link](https://
 ### LabVIEW Version and NI Software
 
 - LabVIEW 2026 Q3 64-bit Community Edition (Requires **free activation** before use)
-- NI-VISA 2026 Q4 (stream)
+- NI-VISA 2026 Q3 (non-stream)
 
 ### Other software
 
