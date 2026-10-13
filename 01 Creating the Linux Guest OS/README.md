@@ -32,7 +32,7 @@ The base settings must be applied with the VirtualBox wizard.  Further settings 
 
 ##### Name and Operating System
 
-Name: LabVIEW-CTI-Student Image-Lubuntu-26.04.1  
+Name: LabVIEW-CTI-Student-Image-Lubuntu-26.04.1  
 Folder:  [any]  
 ISO Image: [your location on disk]\lubuntu-26.04.1-desktop-amd64.iso  
 OS: Linux  

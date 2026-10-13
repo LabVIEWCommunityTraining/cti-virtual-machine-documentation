@@ -40,7 +40,7 @@ Once the pre-export checklist is complete, the virtual machine will be exported 
 
 Using 7-Zip 64-bit, compress the exported `*.ova` file into a `*.zip` file.  Apply the following settings:
 
-- Archive file name: LabVIEW-CTI-Student Image-Lubuntu-YYYYMMDD-#.zip (same as *.ova)
+- Archive file name: LabVIEW-CTI-Student-Image-Lubuntu-YYYYMMDD-#.zip (same as *.ova)
 - Archive format: zip
 - Compression level: Ultra
 - Compression method: LZMA2
