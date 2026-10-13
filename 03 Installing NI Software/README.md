@@ -25,7 +25,7 @@ NI Software installers will be downloaded to the Shared Folder on the Host OS `%
 ### Install the DotNet 8.0 runtime
 
 1. Read the [Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8&pivots=os-linux-ubuntu-2604) by Microsoft as background information.
-2. Launch QTerminal on the Lubuntu Guest OS. 
+2. Launch QTerminal on the Lubuntu Guest OS.
 3. Run command `sudo add-apt-repository ppa:dotnet/backports`.  
 4. Run command `sudo apt-get install -y dotnet-runtime-8.0`.
 5. Resume the LabVIEW installation above.
